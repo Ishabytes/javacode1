@@ -1,0 +1,15 @@
+class checkchar {
+    public static void main(String[] args)
+     {
+        char c='A';
+        if(c>='A'&&c<='Z'){
+            System.out.println("It is upercase ");
+        }
+        else if(c>='a'&&c<='z'){
+            System.out.println("it is lowercase");
+        }
+        else{
+            System.out.println("lower number");
+        }
+    }
+}
