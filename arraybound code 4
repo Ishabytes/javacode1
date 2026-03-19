@@ -1,0 +1,14 @@
+public class arraybound {
+    public static void main(String[] args)
+     {
+        int[] arr={10,20,30};
+        try
+        {
+        System.out.println(arr[3]);
+        }// occur exception bz index range is of 0to 2 ..but here have to print index of 3
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println(e);
+        }
+}
+}
